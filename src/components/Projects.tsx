@@ -15,6 +15,7 @@ const Projects = () => {
       githubUrl: "https://github.com/JoseLuCG/SPVending-manager",
       featured: true
     },
+    /*
     {
       title: "Bloomly",
       description: "Aplicación de interacción social en la que los usuarios interactuan en función de sus intereses o localización.",
@@ -60,6 +61,7 @@ const Projects = () => {
       githubUrl: "#",
       featured: false
     }
+    */
   ];
 
   return (
