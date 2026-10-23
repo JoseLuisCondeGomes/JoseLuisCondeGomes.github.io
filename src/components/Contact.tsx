@@ -36,19 +36,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "tu-email@ejemplo.com",
+      value: "condegomesjoseluis@gmail.com",
       href: "mailto:tu-email@ejemplo.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Teléfono",
-      value: "+34 123 456 789",
-      href: "tel:+34123456789"
+      value: "+34 658 94 62 94",
+      href: "tel:+34658946294"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Ubicación",
-      value: "Madrid, España",
+      value: "Ourense, España",
       href: "#"
     }
   ];

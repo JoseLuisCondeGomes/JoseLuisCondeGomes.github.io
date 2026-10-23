@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-gradient-primary">Tu Nombre</h3>
+            <h3 className="text-2xl font-bold text-gradient-primary">Jose Luis</h3>
             <p className="text-muted-foreground">
               Desarrollador Full Stack especializado en crear experiencias digitales 
               excepcionales que combinan funcionalidad y diseño.
@@ -91,8 +91,8 @@ const Footer = () => {
             </div>
             
             <p className="text-sm text-muted-foreground">
-              <strong>Email:</strong> tu-email@ejemplo.com<br />
-              <strong>Ubicación:</strong> Madrid, España
+              <strong>Email:</strong> condegomesjoseluis@gmail.com<br />
+              <strong>Ubicación:</strong> Ourense, España
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border/50">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
-            © {currentYear} Tu Nombre. Hecho con 
+            © {currentYear} Jose Luis. Hecho con 
             <Heart className="w-4 h-4 text-red-500 animate-pulse" /> 
             y mucho café ☕
           </p>
