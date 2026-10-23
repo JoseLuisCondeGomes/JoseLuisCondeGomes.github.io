@@ -54,7 +54,7 @@ const Hero = () => {
                 className="border-primary/20 hover:border-primary hover:glow-accent transition-smooth p-4 rounded-xl"
                 asChild
               >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/JoseLuisCondeGomes" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5" />
                 </a>
               </Button>
@@ -65,7 +65,7 @@ const Hero = () => {
                 className="border-primary/20 hover:border-primary hover:glow-accent transition-smooth p-4 rounded-xl"
                 asChild
               >
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/jose-luis-conde-gomes-" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-5 h-5" />
                 </a>
               </Button>
@@ -76,7 +76,7 @@ const Hero = () => {
                 className="border-primary/20 hover:border-primary hover:glow-accent transition-smooth p-4 rounded-xl"
                 asChild
               >
-                <a href="mailto:tu-email@ejemplo.com">
+                <a href="mailto:condegomesjoseluis@gmail.com">
                   <Mail className="w-5 h-5" />
                 </a>
               </Button>

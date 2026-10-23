@@ -62,7 +62,7 @@ const Footer = () => {
                 className="border-primary/20 hover:border-primary hover:glow-accent transition-smooth"
                 asChild
               >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/JoseLuisCondeGomes" target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4" />
                 </a>
               </Button>
@@ -73,7 +73,7 @@ const Footer = () => {
                 className="border-primary/20 hover:border-primary hover:glow-accent transition-smooth"
                 asChild
               >
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/jose-luis-conde-gomes-" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-4 h-4" />
                 </a>
               </Button>
@@ -84,7 +84,7 @@ const Footer = () => {
                 className="border-primary/20 hover:border-primary hover:glow-accent transition-smooth"
                 asChild
               >
-                <a href="mailto:tu-email@ejemplo.com">
+                <a href="mailto:condegomesjoseluis@gmail.com">
                   <Mail className="w-4 h-4" />
                 </a>
               </Button>
