@@ -11,10 +11,18 @@ const Projects = () => {
       description: "Aplicación web que permite la gestión de empresas de padel, clubs, maquinas y administradores hecha con React, Node.js. Incluye arquitectura hexagonal y funciones CRUD hacia una API en Springboot.",
       image: spvending,
       tech: ["React","Typescript" , "Node.js", "Docker"],
-      liveUrl: "#",
-      githubUrl: "https://joseluiscondegomes.github.io/SPVending-manager/#/",
+      liveUrl: "https://joseluiscondegomes.github.io/SPVending-manager/#/",
+      githubUrl: "https://github.com/JoseLuisCondeGomes/SPVending-manager",
       featured: true
     },
+    /*
+    {
+      title: "Wake Up!",
+      description: "",
+      image: AArrowDown,
+      tech: ["React Native"],
+      liveUrl:
+    }
     /*
     {
       title: "Bloomly",
