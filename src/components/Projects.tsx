@@ -14,7 +14,9 @@ const Projects = () => {
       tech: ["React","Typescript" , "Node.js", "Docker"],
       liveUrl: "https://joseluiscondegomes.github.io/SPVending-manager/",
       githubUrl: "https://github.com/JoseLuisCondeGomes/SPVending-manager",
-      featured: true
+      featured: true,
+      badge: "Destacado",
+      badgeClass: "bg-gradient-secondary text-white"
     },
     
     {
@@ -24,7 +26,9 @@ const Projects = () => {
       tech: ["React Native", "Expo", "Node.js", "Express", "MySQL"],
       liveUrl: "#",
       githubUrl: "https://github.com/JoseLuCG/proyecto_CoDe",
-      featured: true
+      featured: true,
+      badge: "En Desarrollo",
+      badgeClass: "bg-gradient-warning text-white"
     },
     /*
     {
@@ -104,9 +108,9 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-smooth" />
                 
-                {project.featured && (
-                  <Badge className="absolute top-4 right-4 bg-gradient-secondary text-white border-0">
-                    Destacado
+                {project.badge && (
+                  <Badge className={`absolute top-4 right-4 border-0 ${project.badgeClass}`}>
+                    {project.badge}
                   </Badge>
                 )}
               </div>
