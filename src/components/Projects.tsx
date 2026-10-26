@@ -12,7 +12,7 @@ const Projects = () => {
       image: spvending,
       tech: ["React","Typescript" , "Node.js", "Docker"],
       liveUrl: "#",
-      githubUrl: "https://github.com/JoseLuCG/SPVending-manager",
+      githubUrl: "https://joseluiscondegomes.github.io/SPVending-manager/#/",
       featured: true
     },
     /*
