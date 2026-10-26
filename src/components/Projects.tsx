@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import spvending from "@/assets/images/SPVending-manager.png";
+import wakeup from "@/assets/images/WakeUp.png";
 
 const Projects = () => {
   const projects = [
@@ -15,14 +16,16 @@ const Projects = () => {
       githubUrl: "https://github.com/JoseLuisCondeGomes/SPVending-manager",
       featured: true
     },
-    /*
+    
     {
       title: "Wake Up!",
-      description: "",
-      image: AArrowDown,
-      tech: ["React Native"],
-      liveUrl:
-    }
+      description: "Aplicación móvil para el seguimiento de entrenamientos y hábitos alimenticios. Permite registrar entrenamientos de fuerza y cardio, comidas y macronutrientes, y consultar estadísticas de progreso. Desarrollada con React Native y Expo, con una API REST en Node.js/Express, autenticación JWT y base de datos MySQL.",
+      image: wakeup,
+      tech: ["React Native", "Expo", "Node.js", "Express", "MySQL"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/JoseLuCG/proyecto_CoDe",
+      featured: true
+    },
     /*
     {
       title: "Bloomly",
